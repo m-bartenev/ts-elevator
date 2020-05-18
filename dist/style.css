@@ -1,0 +1,54 @@
+:root {
+	--floor-height: 70px;
+}
+
+#building {
+	width: 250px;
+	position: relative;
+	background: #ddd;
+}
+
+.elevator {
+	width: 60px;
+	height: var(--floor-height);
+	border: 2px solid orange;
+	bottom: 0;
+	left: calc(100% + 5px);
+	position: absolute;
+	transition: bottom 0.5s ease;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.elevator .passenger {
+	font-size: 12px;
+	width: 16px;
+	height: 16px;
+	margin: 2px;
+}
+
+.floor {
+	height: var(--floor-height);
+	border-bottom: 1px solid #555;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.building {
+	position: relative;
+	display: flex;
+	flex-flow: column-reverse;
+}
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+.passenger {
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	margin: 5px;
+	background: black;
+	color: white;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "elevator",
+  "version": "1.0.0",
+  "description": "elevator hting",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+  },
+  "author": "mbartenev",
+  "license": "ISC"
+}
